@@ -6,4 +6,4 @@ import router from "./router.js"
 new TmsVue({
     router,
     render: h => h(Main)
-}).$mount("#console")
+}).$mount("#app")

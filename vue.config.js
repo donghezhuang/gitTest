@@ -3,7 +3,7 @@ module.exports = {
     publicPath: "/ue/",
 
     // 输出文件目录
-    outputDir: "back/public/ue",
+    outputDir: "back/public/ue/",
 
     // 生成的静态资源在它们的文件名中包含hash
     filenameHashing: true,
@@ -28,7 +28,7 @@ module.exports = {
             template: "public/index.html",
             filename: "./user/main.html",
             title: "用户管理",
-            chunks: ["chunk-vendors", "chunk-common", "user"]
+            chunks: ["chunk-vendors", "chunk-common", "matter.user"]
         },
         "matter.console": {
             entry: "src/ue/matter/console/main.js",

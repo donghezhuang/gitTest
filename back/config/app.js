@@ -1,6 +1,6 @@
 module.exports = {
     port: 3000,
-    name: "teamprism",
+    name: "project-nlpt",
     router: {
         auth: {
             prefix: "/ue"
